@@ -2,8 +2,11 @@
   "name": "gerenciamento_de_tarefas",
   "version": "1.0.0",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "dev": "tsx watch src/server.ts"
+    "dev": "tsx watch ./src/server.ts",
+    "build": "tsc",
+    "start": "node ./build/server.js"
   },
   "keywords": [],
   "author": "",
