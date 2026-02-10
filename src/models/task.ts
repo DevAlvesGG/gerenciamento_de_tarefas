@@ -9,7 +9,7 @@ interface TaskAtributes {
 }
 
 export class Task {
-    private static tasks: Task[];
+    private static tasks: Task[] = [];
     private static sequence: number = 1;
 
     id: number;
